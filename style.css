@@ -11,8 +11,33 @@
 
 .button-style {
     background-color: var(--green);
-    padding: 10px 15px;
+    padding: 7px 15px;
     color: var(--white);
     border: none;
     border-radius: 5px;
+}
+
+.hero-container {
+    background-color: var(--bgClr);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 50px;
+}
+
+.hero-header {
+    font-size: 65px;
+}
+
+.hero-color {
+    color: var(--green);
+    ;
+}
+
+.hero-img {
+    height: 435px;
+    width: 430px;
 }
