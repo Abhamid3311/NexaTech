@@ -8,7 +8,8 @@
 .logo {
     width: 150px;
 }
-.bg-color{
+
+.bg-color {
     background-color: var(--bgClr);
 }
 
@@ -30,6 +31,7 @@
     justify-content: space-between;
     gap: 20px;
     padding: 20px 50px;
+    color: var(--textClr);
 }
 
 .hero-header {
@@ -46,7 +48,39 @@
     width: 430px;
 }
 
-.clients-img img{
+.clients-img img {
     width: 42px;
     height: auto;
+}
+
+.unseen-header {
+    font-size: 40px;
+    color: var(--textClr);
+}
+
+
+.unseen-container {
+    color: var(--textClr);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 50px;
+}
+
+.Helping-container {
+    background-color: var(--bgClr);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 50px;
+    color: var(--textClr);
+}
+
+.iconify{
+    font-size: 40px;
+    color: var(--green);
 }
