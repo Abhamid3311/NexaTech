@@ -8,7 +8,7 @@
 * {
     border: 0;
     box-sizing: border-box;
-    color: var(--textClr);
+    /* color: var(--textClr); */
 }
 
 .logo {
@@ -120,7 +120,7 @@
     object-fit: cover;
 }
 
-.card-info{
+.card-info {
     background-color: var(--bgClr);
     width: 250px;
     height: 130px;
@@ -131,8 +131,29 @@
     left: 40px;
 }
 
-.card-link, .card-link i{
+.card-link,
+.card-link i {
     color: var(--green);
     text-decoration: none;
     font-weight: bold;
+}
+
+.footer-container {
+    background-color: #263238 ;
+    color: var(--white) ;
+    padding:70px;
+}
+.footer-menu-container{
+    text-align: left;
+}
+.footer-menu{
+    list-style-type: none;
+    text-align: start;
+    padding-left: 0;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: var(--white);
+
 }
