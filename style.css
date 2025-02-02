@@ -85,6 +85,7 @@ button {
     height: 80vh;
     width: 100%;
     display: flex;
+    flex: row;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
@@ -144,7 +145,7 @@ button {
     color: var(--textClr);
 }
 
-.Helping-info i{
+.Helping-info i {
     color: var(--green);
 }
 
@@ -220,4 +221,32 @@ button {
     text-decoration: none;
     color: var(--white);
 
+}
+
+
+
+/* Responsive CSS */
+
+@media screen and (max-width:656px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .hero-header {
+        font-size: 40px;
+    }
+
+    .hero-img {
+        height: 300px;
+        width: 100%
+    }
+
+    .clients-img img {
+        width: 30px;
+        height: auto;
+    }
 }
