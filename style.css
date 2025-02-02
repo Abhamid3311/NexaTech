@@ -69,10 +69,6 @@ button {
     color: #fff;
 }
 
-
-
-
-
 .logo {
     width: 150px;
 }
@@ -146,6 +142,10 @@ button {
     gap: 20px;
     padding: 20px 50px;
     color: var(--textClr);
+}
+
+.Helping-info i{
+    color: var(--green);
 }
 
 .iconify {
